@@ -1,13 +1,18 @@
 package lang.object.tostring;
 
 public class Dog {
-    private String dogName;
-    private int age;
-
+    private final String dogName;
+    private final int age;
     public Dog(String dogName, int age) {
         this.dogName = dogName;
         this.age = age;
     }
+
+/*
+    public String toString() {
+        return "dogName = " + dogName + "/ age = " + age;
+    }
+*/
 
     @Override
     public String toString() {

@@ -1,9 +1,9 @@
 package lang.object.tostring;
 
 public class Car {
-    private String carName;
+    private final String carName;
 
-    public Car(String carName){
+    public Car(String carName) {
         this.carName = carName;
     }
 }
