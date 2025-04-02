@@ -12,7 +12,7 @@ public class MemoryMemberRepositoryTest {
 
     @AfterEach
     public void afterEach() {
-        repository.clear();
+        repository.clearR();
     }
 
     @Test
