@@ -25,7 +25,8 @@ dependencies {
 	compileOnly "org.springframework.boot:spring-boot-devtools"
 
 	//db
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+//	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	runtimeOnly 'com.h2database:h2'
 	testImplementation "org.mockito:mockito-inline:5.12.0"
 }
